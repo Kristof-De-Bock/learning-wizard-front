@@ -1,5 +1,5 @@
 {
-  "name": "learning-wizard",
+  "name": "learning-wizard-front",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
