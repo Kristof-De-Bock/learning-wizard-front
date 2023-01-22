@@ -1,0 +1,9 @@
+<div class="card-container">
+  <div class="card" *ngFor="let exercise of mathExercises | async">
+    {{formatExercise(exercise)}}
+    <app-math-value-checker [mathExercise]="exercise" (mathChanges)="checkResult($event)"></app-math-value-checker>
+  </div>
+</div>
+<div class="card-container">
+  <img src="assets/staf.png" alt="stick" (click)="refresh()" width="150" height="150">
+</div>
